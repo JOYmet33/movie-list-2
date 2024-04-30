@@ -1,0 +1,17 @@
+
+header {
+    background-color: aquamarine;
+    text-align: center;
+    height: 100px;
+    padding-top: 40px;
+    font-size: 40pt;
+    font-weight:700;
+}
+
+form {
+    background-color: bisque;
+    padding-top: 20px;
+
+    height: 50px;
+    text-align: center;
+}
