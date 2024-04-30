@@ -1,0 +1,1 @@
+import {cardList} from "./movie.js"

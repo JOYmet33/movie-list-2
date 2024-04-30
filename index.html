@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>movie collection</title>
+    <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
-    <script src="./src/main.js"></script>
+    <script src="./src/main.js" type="module"></script>
+    <!-- <script src="./src/movie.js" type="module"></script>
+    <script src="./src/search.js" type="module"></script> -->
+    <script src="./src/tmdb.js" type="module"></script>
 </head>
 <body>
-    <!-- <script src="./src/movie.js"></script> -->
-    <header></header>
-    <form></form>
-    <ul></ul> 
+    <header>
+        <h1>My Movie Collection</h1>
+    </header>
+    <form id="search-form">
+        <label>영화 검색: </label>
+        <input id="search-input"/>
+        <button id="search-btn">검색</button>
+    </form>
+    <ul id="card-list"></ul>
 </body>
 </html>
