@@ -1,4 +1,6 @@
 
+
+
 header {
     background-color: aquamarine;
     text-align: center;
@@ -15,3 +17,9 @@ form {
     height: 50px;
     text-align: center;
 }
+
+/* .movieCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */

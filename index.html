@@ -10,21 +10,17 @@
     <script src="./src/movie.js" type="module"></script>
     <!-- <script src="./src/search.js" type="module"></script> -->
     <script src="./src/tmdb.js" type="module"></script>
+    <script src="./src/tmdb(2).js" type="module"></script>
   </head>
   <body>
     <header>
       <h1>My Movie Collection</h1>
     </header>
-    <form id="search-form">
-      <label>영화 검색: </label>
-      <input id="search-input" />
-      <button id="search-btn">검색</button>
+    <form id="searchForm">
+      <label>영화 제목: </label>
+      <input id="searchInput" type="text" placeholder="영화 제목을 검색해주세요."/>
+      <button id="searchBtn">검색</button>
     </form>
-    <ul id="card-list">
-      <img src=""/>
-      <h3 class="movie-title">영화제목</h3>
-      <p>줄거리</p>
-      <p>평점: 9.1</p>
-    </ul>
+    <ul id="cardList"></ul>
   </body>
 </html>
