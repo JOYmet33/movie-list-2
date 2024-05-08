@@ -1,25 +1,61 @@
-
-
+/*
+1색상 : 5AB2FF
+2색상 : A0DEFF
+3색상 : CAF4FF
+4색상 : FFF9D0 <<- 포인트
+*/
 
 header {
-    background-color: aquamarine;
-    text-align: center;
-    height: 100px;
-    padding-top: 40px;
-    font-size: 40pt;
-    font-weight:700;
+  background-color: aquamarine;
+  text-align: center;ㄴ
+  height: 100px;
+  padding-top: 40px;
+  font-size: 40pt;
+  font-weight: 700;
 }
 
-form {
-    background-color: bisque;
-    padding-top: 20px;
-
-    height: 50px;
-    text-align: center;
+#searchForm {
+  background-color: bisque;
+  padding-top: 15px;
+  height: 50px;
+  text-align: center;
 }
 
-/* .movieCard{
+#searchLabel {
+  font-size: 15pt;
+  font-weight: 700;
+}
+
+#searchInput {
+  height: 30px;
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#searchInput:focus {
+    background-color: transparent;
+}
+
+#searchBtn {
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: 700;
+  background-color: ;
+  border-radius: 10px;
+}
+
+#cardHouse {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-} */
+}
+
+.movieCard {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  width: 300px;
+  border: 1px solid navy;
+}
